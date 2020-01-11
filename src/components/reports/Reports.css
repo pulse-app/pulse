@@ -1,0 +1,68 @@
+.reports-model{
+    width: 80%;
+    padding: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+.close-model-r{
+    position: absolute;
+    right: 10%;
+    padding: 8px 16px;
+    background-color: #0094FF;
+    color: white;
+    cursor: pointer;
+}
+
+.reports-header{
+    /* font-weight: bold; */
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.reports-week{
+    /* font-weight: bold; */
+    font-size: 24px;
+    line-height: 28px;
+    color: #202022;
+}
+
+.reports-table-row{
+    display: grid;
+    grid-template-columns: 210px repeat(7, 1fr);
+}
+
+.pd-16{
+    padding: 16px;
+}
+
+.hd-item{
+    font-size: 15px;
+    /* font-weight: 600; */
+    color: #0094FF;
+}
+
+.row-item{
+    font-size: 15px;
+}
+
+.row-items:hover{
+    cursor: pointer;
+    background-color: rgba(0, 149, 255, 0.24);
+}
+
+.model-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+    background: rgba(196, 196, 196, 0.2);
+    backdrop-filter: blur(2px);
+}

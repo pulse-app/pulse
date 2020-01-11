@@ -1,0 +1,147 @@
+
+/* SIGNUP PAGE */
+.signup-box{
+display: grid;
+grid-template-rows: 1fr 1fr;
+background-color: white;
+width: 380px;
+height: 689px;
+/* right: 50px;
+top: 42px; */
+box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.25);
+}
+.signup-box a{
+  text-decoration: none;
+}
+.signup-box a:hover{
+  text-decoration: none;
+}
+.signup-form-container{
+  display: grid;
+grid-template-rows: 0.5fr 2fr; 
+}
+.signup-header{
+ text-align: center;
+  width: 40%;
+  height: 70px;
+  top: 140px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 70px;
+
+  color: #0094ff;
+  justify-self: center;
+}
+
+.signup-form form{
+margin: 30px;
+}
+.signup-logo{
+  width: 124.7px;
+  height: 77.04px;
+ 
+}
+.signup-logo-container{
+   justify-self: end;
+}
+
+#input-border{
+  border: #0094FF solid 1px;
+ 
+  border-radius: 0px;
+}
+.signup-button{
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #0094fe;
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+}
+h5{
+color: #0094FF;
+
+font-size: 16px;
+line-height: 19px;
+text-decoration: none;
+
+}
+
+.label-text{
+font-size: 16px;
+line-height: 19px;
+color:  #000000;
+left: 0;
+}
+
+.form-control {
+  display: block;
+  width: 93%;
+  height: 40px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.signin-text{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #0094FF;
+  cursor: pointer;
+}
+.invalid-feedback{
+  height: 10px;
+  margin-bottom: 25px;
+  color: rgb(245, 17, 17);
+}
+.loginSignUpBtn {
+  display: grid;
+  width: 99%;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #0094fe;
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  justify-items: center;
+  align-items: center;
+}
+.loginSignUpBtn:hover {
+  cursor: pointer;
+}
+.sign-up-form-message-box{
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  color: rgb(245, 17, 17);
+  border-radius: 5px;
+  height: 35px;
+  width: 75%;
+  background-color: white;
+  justify-self: center;
+  border: solid 1px rgb(245, 17, 17);
+  
+}
+.signup-header__wraper{
+  display: grid;
+  justify-items: center;
+}

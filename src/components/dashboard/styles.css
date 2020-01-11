@@ -1,0 +1,223 @@
+/* SideMenu styles start */
+.side-menu {
+    width: 20%;
+    height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: 0 16px 8px 6px lightgray;
+    position: fixed;
+}
+.info {
+    position: relative;
+    margin: 10%;
+    text-align: center;
+}
+.img-dashboard {
+    width: 80px;
+    margin: 20px 110px;
+}
+.info .avatar img{
+    width: 150px;
+    height: 150px;
+    border: 1px solid lightgray;
+    border-radius: 90%;
+    margin: 0 auto;
+}
+.info h2 {
+    color: #0094ff;
+    font-weight: bolder;
+}
+.btn__container {
+    /* position: relative; */
+    width: 100%;
+    justify-items: center;
+    margin-top: 90%;
+}
+.btn-dashboard {
+    /* position: absolute; */
+    top: 200px;
+    left: 25%;
+    width: 50%;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    background: #0094FF;
+    color: white;
+    font-weight: 800;
+    outline: none;
+    margin-top: 30%;
+}
+button:hover {
+    cursor: pointer;
+}
+
+/* SideMenu styles end */
+
+/* MainMenu styles start*/
+.menus {
+    display: grid;
+}
+/* .container {
+    width: 1000px;
+} */
+.main-menu {
+    position: relative;
+    width: 85%;
+    height: 250px;
+    margin: 25px auto;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+span {
+    color: rgb(175, 171, 171);
+}
+h1 {
+    color: gray;
+}
+.badge {
+    padding: 7px;
+    background: #0094ff;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 6px;
+    width: 19%;
+    text-align: center;
+}
+.line {
+    position: absolute;
+    top: 190px;
+    left: 50px;
+    border: 1px solid #0094ff;
+    width: 85%;
+}
+
+.circle {
+    display: flex;
+    position: absolute;
+    margin: 0 auto;
+}
+.not_completed {
+    padding: 8px;
+    margin: 13px 20px;
+    width: 12px;
+    height: 12px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 50%;
+    background: white;
+    color: gray;
+    border: 1px solid rgb(212, 212, 212);
+}
+.completed {
+    padding: 9px;
+    margin: 13px 20px;
+    width: 12px;
+    height: 12px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 50%;
+    background: #0094ff;
+    color: white;
+}
+.main-menu__floating-button {
+    position: fixed;
+    top: 83vh;
+    left: 90%;
+    width: 25px;
+    padding: 15px;
+    background: #0094FF;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 50%;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.25);
+    
+}
+.main-menu__floating-button:hover{
+    cursor: pointer;
+}
+.hide-main-menu__floating-button {
+    display: none;
+}
+.average{
+    position: absolute;
+    top: 45%;
+    left: 72%;
+    padding: 7px 6px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 6px;
+    width: 19%;
+    text-align: center;
+}
+.averages {
+    position: absolute;
+    left: 10px;
+    bottom: 25px;
+    width: 100%;
+    margin: 0 auto;
+}
+.attribute__average {
+    margin: 10px;
+    width: 30%;
+    padding: 2px 8px;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 6px;
+}
+/* MainMenu styles end */
+
+/* SearchBox styles start*/
+
+.searchbox {
+   
+    width: 75%;
+    padding: 12px;
+    /* outline: none; */
+    background: rgb(233, 232, 232);
+    border-radius: 5px;
+    border: 1px solid #C4C4C4;
+    margin-left: 11%;
+
+}
+.searchbox__wrapper{
+    width: 80%;  
+    justify-self: center;
+    display: grid;
+    margin-bottom: 20px;
+}
+.hide__search-box {
+    display: none;
+}
+/* SearchBox styles end*/ 
+
+.simmulation__card{
+    margin-top: 50px;
+   justify-self: right;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 70%;
+  grid-auto-rows: minmax(10px,auto);
+  padding-right: 80px;
+}
+
+
+
+.main-menu__no-cohort-message{
+    text-align: center;
+    position: relative;
+    width: 80%;
+    height: 200px;
+    margin: 25px auto;
+   padding-top: 10vh;
+    border-radius: 5px;
+    font-size: 4em;
+    color:#e9e8e8;
+}

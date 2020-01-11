@@ -1,0 +1,143 @@
+body,
+html {
+  margin: 0;
+}
+.wraper {
+  height: 100%;
+  background: #ffffff;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-auto-rows: minmax(100vh, auto);
+  justify-items: center;
+  align-items: center;
+}
+.Lform {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(10px, auto);
+  width: 380px;
+  height: 560px;
+  background: #ffffff;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.25);
+}
+.title {
+  width: 40%;
+  height: 70px;
+  top: 140px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 70px;
+
+  color: #0094ff;
+  justify-self: center;
+}
+.loginImage {
+  justify-self: end;
+  height: 98px;
+}
+
+.loginformwraper {
+  display: grid;
+  width: 100%;
+  height: 430px;
+  left: 910px;
+  top: 309px;
+}
+
+.loginSignUpInput {
+  width: 99%;
+  height: 40px;
+  border: #0094ff solid 1px;
+  margin-top: 5px;
+  font-size: 1em;
+}
+.loginSignUpBtn {
+  display: grid;
+  width: 99%;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #0094fe;
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  justify-items: center;
+  align-items: center;
+}
+.loginSignUpBtn:hover {
+  cursor: pointer;
+}
+#loginForm {
+  width: 85%;
+  justify-self: center;
+  align-self: flex-end;
+  margin-bottom: 80px;
+}
+
+#loginLInk {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+
+  color: #0094ff;
+}
+#loginLInk:hover {
+  cursor: pointer;
+}
+
+.logo {
+  background-color: rgb(255, 255, 255);
+  align-self: end;
+  justify-self: center;
+}
+.disign {
+  background-color: rgb(255, 255, 255);
+  align-self: end;
+  justify-self: start;
+  display: grid;
+  align-items: end;
+}
+
+.designWraper {
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  align-self: end;
+  grid-template-columns: 1f;
+  grid-auto-rows: auto;
+  justify-self: start;
+}
+.emptyDiv {
+  height: 200px;
+}
+
+.secondImage {
+  align-self: end;
+}
+.sign-in__form__password-label,
+.sign-in__form__email-label {
+  height: 10px;
+  margin-bottom: 20px;
+  color: rgb(245, 17, 17);
+}
+
+.sign-in__form__message-box {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  color: rgb(245, 17, 17);
+  border-radius: 5px;
+  height: 35px;
+  width: 85%;
+  background-color: white;
+  justify-self: center;
+  border: solid 1px rgb(245, 17, 17);
+}
