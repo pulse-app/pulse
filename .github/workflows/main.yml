@@ -1,26 +1,21 @@
 name: Build and Deploy
+
 on:
   push:
     branches:
-      - develop
+    - develop
 
 jobs:
-  build:
-    name: Build
+  firebase-deploy:
+
     runs-on: ubuntu-latest
+
     steps:
-      - name: Install Dependencies
-        run: npm install
-      - name: Build
-        run: npm run build
-  deploy:
-    name: Deploy
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to Firebase
-        uses: w9jds/firebase-action@master
-        with:
-          args: deploy --only hosting
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+    - uses: actions/checkout@master
+    - run: npm install
+    - run: npm run build:prod
+    - uses: w9jds/firebase-action@master
+      with:
+        args: deploy --only hosting
+      env:
+        FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
