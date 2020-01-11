@@ -9,7 +9,6 @@ jobs:
   firebase-deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/npm@master
     - run: npm install
     - run: npm build
     - uses: w9jds/firebase-action@master
